@@ -12,7 +12,7 @@
 🔊 [Ambiance sonore](https://youtu.be/kxqJuc1HHbg?si=bxVtYb9T6CtQfJWs)
 
 ## Map
-![Moodboard](/media/taches_principales.png)
+![Moodboard](/media/map.jpg)
 
 ## Schéma d'interactivité
 
