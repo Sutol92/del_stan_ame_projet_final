@@ -5,7 +5,7 @@
 ## Description spécifique
 "Qu'est-ce que tu as fait" est une expérience VR où l'utilisateur est emprisonné dans un donjon terrifiant. En récoltants des objets, il est possible d'ouvrir de nouvelles pièces où se trouve des objets qui vont aider l'utilisateur à s'enfuir de cette horrible place. L'utilisateur doit faire attention à où il met les pieds, car la mort est toujours proche. 
 
-Quoi faire pour s'enfuir:
+#### Quoi faire pour s'enfuir:
 1. Récolter un bracelet
 2. Activer un bouton
 3. À déterminer
