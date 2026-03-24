@@ -10,3 +10,7 @@ JEU est une expérience VR où l'utilisateur est emprisonné dans un donjon terr
 
 ## Moodboard audio
 🔊 [Ambiance sonore](https://youtu.be/kxqJuc1HHbg?si=bxVtYb9T6CtQfJWs)
+
+## Schéma d'interactivité
+
+![Moodboard](/media/taches_principales.png)
