@@ -4,15 +4,24 @@ using UnityEngine;
 
 public class socle : MonoBehaviour
 {
-    // Start is called before the first frame update
-    void Start()
+    public GameObject ampoule;
+
+    void OnTriggerEnter(Collider other)
     {
-        
+        if (other.CompareTag("socle_1"))
+        {
+            ampoule.SetActive(true);
+        }
+
+
     }
 
-    // Update is called once per frame
-    void Update()
+    void OnTriggerExit(Collider other)
     {
-        
+        if (other.CompareTag("socle_1"))
+        {
+            ampoule.SetActive(false);
+        }
     }
-}
+
+    }
