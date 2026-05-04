@@ -6,6 +6,7 @@ TagManager:
   tags:
   - levier_control
   - socle_1
+  - socle_2
   layers:
   - Default
   - TransparentFX

@@ -5,6 +5,7 @@ using UnityEngine;
 public class socle : MonoBehaviour
 {
     public GameObject ampoule;
+    public GameObject ampoule_2;
 
     void OnTriggerEnter(Collider other)
     {
@@ -12,7 +13,10 @@ public class socle : MonoBehaviour
         {
             ampoule.SetActive(true);
         }
-
+        else if (other.CompareTag("socle_2"))
+        {
+            ampoule_2.SetActive(true);
+        }
 
     }
 
@@ -21,6 +25,10 @@ public class socle : MonoBehaviour
         if (other.CompareTag("socle_1"))
         {
             ampoule.SetActive(false);
+        }
+        else if (other.CompareTag("socle_2"))
+        {
+            ampoule_2.SetActive(false);
         }
     }
 
