@@ -6,6 +6,7 @@ public class socle : MonoBehaviour
 {
     public GameObject ampoule;
     public GameObject ampoule_2;
+    public GameObject reussite_ampoule;
 
     void OnTriggerEnter(Collider other)
     {
@@ -16,7 +17,9 @@ public class socle : MonoBehaviour
         else if (other.CompareTag("socle_2"))
         {
             ampoule_2.SetActive(true);
+            reussite_ampoule.SetActive(true);
         }
+        
 
     }
 
