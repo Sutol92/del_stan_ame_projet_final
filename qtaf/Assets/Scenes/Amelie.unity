@@ -1227,7 +1227,6 @@ Transform:
   - {fileID: 23469712}
   - {fileID: 1103679230}
   - {fileID: 665735686}
-  - {fileID: 975109474}
   - {fileID: 1199845526}
   - {fileID: 486540723}
   - {fileID: 1511867739}
@@ -4659,6 +4658,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   script_levier_global: {fileID: 779931417}
+  ampoule1_reussite: {fileID: 0}
+  ampoule2_reussite: {fileID: 0}
+  ampoule3_reussite: {fileID: 0}
 --- !u!65 &194986760
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -5232,6 +5234,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   script_levier_global: {fileID: 779931417}
+  ampoule1_reussite: {fileID: 0}
+  ampoule2_reussite: {fileID: 0}
+  ampoule3_reussite: {fileID: 0}
 --- !u!1001 &202212394
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -14032,6 +14037,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   ampoule_3: {fileID: 721350738}
+  ampoule_piece: {fileID: 0}
   levier1: 0
   levier2: 0
   levier3: 0
@@ -16839,7 +16845,7 @@ PrefabInstance:
   serializedVersion: 2
   m_Modification:
     serializedVersion: 3
-    m_TransformParent: {fileID: 47236757}
+    m_TransformParent: {fileID: 0}
     m_Modifications:
     - target: {fileID: 1309407314312758022, guid: b4b3577239e961e46836ec6c00c2c7d6,
         type: 3}
@@ -16879,17 +16885,17 @@ PrefabInstance:
     - target: {fileID: 8911207800528885441, guid: b4b3577239e961e46836ec6c00c2c7d6,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: -15.062536
+      value: 18.85
       objectReference: {fileID: 0}
     - target: {fileID: 8911207800528885441, guid: b4b3577239e961e46836ec6c00c2c7d6,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: 3.1247258
+      value: 9.224
       objectReference: {fileID: 0}
     - target: {fileID: 8911207800528885441, guid: b4b3577239e961e46836ec6c00c2c7d6,
         type: 3}
       propertyPath: m_LocalPosition.z
-      value: -7.6288643
+      value: 21.97
       objectReference: {fileID: 0}
     - target: {fileID: 8911207800528885441, guid: b4b3577239e961e46836ec6c00c2c7d6,
         type: 3}
@@ -33645,6 +33651,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   script_levier_global: {fileID: 779931417}
+  ampoule1_reussite: {fileID: 0}
+  ampoule2_reussite: {fileID: 0}
+  ampoule3_reussite: {fileID: 0}
 --- !u!65 &1997958311
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -36690,6 +36699,7 @@ SceneRoots:
   - {fileID: 1691130132}
   - {fileID: 1776789664}
   - {fileID: 1958255579}
+  - {fileID: 975109473}
   - {fileID: 1654988536}
   - {fileID: 1949474727}
   - {fileID: 1188471834}
