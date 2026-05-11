@@ -7,6 +7,8 @@ public class socle : MonoBehaviour
     public GameObject ampoule;
     public GameObject ampoule_2;
     public GameObject reussite_ampoule;
+    public GameObject colision_barre;
+    public GameObject colision_ouverte;
 
     void OnTriggerEnter(Collider other)
     {
