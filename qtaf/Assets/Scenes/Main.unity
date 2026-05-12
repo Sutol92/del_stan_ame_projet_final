@@ -8508,8 +8508,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2be8147c2015ada448406dd1624a108a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  colision_barre: {fileID: 1462260111}
-  colision_ouverte: {fileID: 2133763841}
+  collision_barre: {fileID: 1462260111}
+  collision_ouverte: {fileID: 2133763841}
   porteAnimator: {fileID: 1509356866}
 --- !u!1001 &199620876
 PrefabInstance:
@@ -9580,12 +9580,6 @@ MonoBehaviour:
   m_Teleporting:
     m_PersistentCalls:
       m_Calls: []
---- !u!1 &216146592 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 1243111391846360, guid: ab4a2542959e97f428b74613fd6c3cd3,
-    type: 3}
-  m_PrefabInstance: {fileID: 1065457220}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &219322776
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -18127,12 +18121,6 @@ MonoBehaviour:
   m_Teleporting:
     m_PersistentCalls:
       m_Calls: []
---- !u!1 &442348961 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 1243111391846360, guid: ab4a2542959e97f428b74613fd6c3cd3,
-    type: 3}
-  m_PrefabInstance: {fileID: 2058950062}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1 &444265241 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 1657920249499184, guid: b27dca15eb6aafb4c9aacf0ec556cc7d,
@@ -38548,8 +38536,6 @@ MonoBehaviour:
   ampoule_piece: {fileID: 259991242}
   colision_barre: {fileID: 1462260111}
   colision_ouverte: {fileID: 2133763841}
-  collision_porte_gauche: {fileID: 216146592}
-  colliion_porte_droite: {fileID: 442348961}
   levier1: 0
   levier2: 0
   levier3: 0
@@ -65151,7 +65137,7 @@ AudioSource:
   m_Enabled: 1
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
-  m_audioClip: {fileID: 0}
+  m_audioClip: {fileID: 8300000, guid: 70ac2c5090e124e4987afb0eb35652ce, type: 3}
   m_PlayOnAwake: 0
   m_Volume: 1
   m_Pitch: 1
@@ -98438,7 +98424,7 @@ AudioSource:
   m_Enabled: 1
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
-  m_audioClip: {fileID: 0}
+  m_audioClip: {fileID: 8300000, guid: d7515c8fe63b34e43be70c24d979eee4, type: 3}
   m_PlayOnAwake: 0
   m_Volume: 1
   m_Pitch: 1

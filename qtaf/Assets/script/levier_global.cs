@@ -8,8 +8,6 @@ public class levier_global : MonoBehaviour
     public GameObject ampoule_piece;
     public GameObject colision_barre;
     public GameObject colision_ouverte;
-    public GameObject collision_porte_gauche;
-    public GameObject colliion_porte_droite;
     public bool levier1;
     public bool levier2;
     public bool levier3;

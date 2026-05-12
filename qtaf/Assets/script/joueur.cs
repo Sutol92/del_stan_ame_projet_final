@@ -4,8 +4,8 @@ using UnityEngine;
 
 public class joueur : MonoBehaviour
 {
-    public GameObject colision_barre;
-    public GameObject colision_ouverte;
+    public GameObject collision_barre;
+    public GameObject collision_ouverte;
     public Animator porteAnimator;
 
     void OnTriggerEnter(Collider other)
@@ -15,6 +15,8 @@ public class joueur : MonoBehaviour
         {
             
             porteAnimator.Play("porte locked");
+            collision_barre.GetComponent<AudioSource>().Play();
+            collision_ouverte.GetComponent<AudioSource>().Play();
         }
         else if (other.tag == "porte_ouverte")
         {
