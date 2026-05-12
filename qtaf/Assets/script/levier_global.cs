@@ -20,8 +20,6 @@ public class levier_global : MonoBehaviour
           ampoule_piece.SetActive(true);
           colision_ouverte.SetActive(true);
           colision_barre.SetActive(false);
-          colliion_porte_droite.SetActive(false);
-          collision_porte_gauche.SetActive(false);
 
         }
     }
