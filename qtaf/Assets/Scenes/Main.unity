@@ -23034,8 +23034,6 @@ MonoBehaviour:
   ampoule: {fileID: 2100729246}
   ampoule_2: {fileID: 1403345724}
   reussite_ampoule: {fileID: 707758106}
-  colision_barre: {fileID: 0}
-  colision_ouverte: {fileID: 0}
 --- !u!114 &616791747
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -28621,6 +28619,12 @@ GameObject:
     type: 3}
   m_PrefabInstance: {fileID: 1521790819}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &768898682 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 2201381263983539387, guid: b4b3577239e961e46836ec6c00c2c7d6,
+    type: 3}
+  m_PrefabInstance: {fileID: 1234670145}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &768941540
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -30520,8 +30524,6 @@ MonoBehaviour:
   ampoule: {fileID: 0}
   ampoule_2: {fileID: 0}
   reussite_ampoule: {fileID: 0}
-  colision_barre: {fileID: 0}
-  colision_ouverte: {fileID: 0}
 --- !u!65 &824174680
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -32772,8 +32774,6 @@ MonoBehaviour:
   ampoule: {fileID: 2100729246}
   ampoule_2: {fileID: 1403345724}
   reussite_ampoule: {fileID: 707758106}
-  colision_barre: {fileID: 2070787553}
-  colision_ouverte: {fileID: 1822391715}
 --- !u!114 &878340751
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -33752,6 +33752,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   ampoule_3: {fileID: 140130459}
   ampoule_piece: {fileID: 259991242}
+  colision_barre: {fileID: 2070787553}
+  colision_ouverte: {fileID: 1822391715}
   levier1: 0
   levier2: 0
   levier3: 0
@@ -47891,6 +47893,10 @@ PrefabInstance:
       insertIndex: -1
       addedObject: {fileID: 172037511}
     m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 2201381263983539387, guid: b4b3577239e961e46836ec6c00c2c7d6,
+        type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1495191764}
     - targetCorrespondingSourceObject: {fileID: 1684065769575453636, guid: b4b3577239e961e46836ec6c00c2c7d6,
         type: 3}
       insertIndex: -1
@@ -59728,6 +59734,23 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 1234670145}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &1495191764
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 768898682}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2be8147c2015ada448406dd1624a108a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  script_levier_global: {fileID: 912270798}
+  porte: {fileID: 1509356864}
+  colision_barre: {fileID: 2070787553}
+  colision_ouverte: {fileID: 1822391715}
+  porteAnimator: {fileID: 1509356866}
 --- !u!1001 &1495250310
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -74805,7 +74828,7 @@ GameObject:
   - component: {fileID: 1822391717}
   m_Layer: 0
   m_Name: collision_porte_ouverte
-  m_TagString: Untagged
+  m_TagString: porte_ouverte
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -84457,11 +84480,11 @@ GameObject:
   - component: {fileID: 2070787556}
   m_Layer: 0
   m_Name: collision_porte_barre
-  m_TagString: Untagged
+  m_TagString: porte_ferme
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &2070787554
 Transform:
   m_ObjectHideFlags: 0
@@ -84471,8 +84494,8 @@ Transform:
   m_GameObject: {fileID: 2070787553}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -4.992, y: 0.995, z: -2.945}
-  m_LocalScale: {x: 2.074518, y: 1.9961, z: 1}
+  m_LocalPosition: {x: -4.992, y: 1.46, z: -2.945}
+  m_LocalScale: {x: 3.651359, y: 3.5133355, z: 1.7601}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1958255579}

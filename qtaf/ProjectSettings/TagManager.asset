@@ -8,6 +8,8 @@ TagManager:
   - socle_1
   - socle_2
   - son_lumiere
+  - porte_ferme
+  - porte_ouverte
   layers:
   - Default
   - TransparentFX
