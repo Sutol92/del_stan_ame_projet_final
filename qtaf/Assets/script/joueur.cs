@@ -11,11 +11,11 @@ public class joueur : MonoBehaviour
     void OnTriggerEnter(Collider other)
     {
 
-        if (other.CompareTag("porte_ferme"))
+        if (other.tag == "porte_ferme")
         {
             porteAnimator.Play("porte_locked");
         }
-        else if (other.CompareTag("porte_ouverte"))
+        else if (other.tag == "porte_ouverte")
         {
             porteAnimator.Play("porte_ouverte");
         }
