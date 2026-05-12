@@ -7091,10 +7091,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2be8147c2015ada448406dd1624a108a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  script_levier_global: {fileID: 912270798}
-  porte: {fileID: 1509356864}
   colision_barre: {fileID: 1462260111}
-  colision_ouverte: {fileID: 0}
+  colision_ouverte: {fileID: 2133763841}
   porteAnimator: {fileID: 1509356866}
 --- !u!1001 &199620876
 PrefabInstance:
@@ -33769,8 +33767,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   ampoule_3: {fileID: 140130459}
   ampoule_piece: {fileID: 259991242}
-  colision_barre: {fileID: 0}
-  colision_ouverte: {fileID: 0}
+  colision_barre: {fileID: 1462260111}
+  colision_ouverte: {fileID: 2133763841}
   levier1: 0
   levier2: 0
   levier3: 0
@@ -60641,7 +60639,7 @@ GameObject:
   - component: {fileID: 1509356866}
   m_Layer: 0
   m_Name: porte_fin
-  m_TagString: Untagged
+  m_TagString: animation
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -87543,7 +87541,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &2133763842
 Transform:
   m_ObjectHideFlags: 0

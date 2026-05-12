@@ -4,8 +4,6 @@ using UnityEngine;
 
 public class joueur : MonoBehaviour
 {
-    public levier_global script_levier_global;
-    public GameObject porte;
     public GameObject colision_barre;
     public GameObject colision_ouverte;
     public Animator porteAnimator;
