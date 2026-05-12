@@ -13,11 +13,12 @@ public class joueur : MonoBehaviour
 
         if (other.tag == "porte_ferme")
         {
-            porteAnimator.Play("porte_locked");
+            
+            porteAnimator.Play("porte locked");
         }
         else if (other.tag == "porte_ouverte")
         {
-            porteAnimator.Play("porte_ouverte");
+            porteAnimator.Play("porte ouverte");
         }
             
 
