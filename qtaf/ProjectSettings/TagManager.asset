@@ -11,6 +11,7 @@ TagManager:
   - porte_ferme
   - porte_ouverte
   - animation
+  - collision_fin
   layers:
   - Default
   - TransparentFX
